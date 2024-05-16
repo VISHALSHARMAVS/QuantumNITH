@@ -24,6 +24,7 @@
     right: 0;
     background: rgba(0,15,152,0.3);
     display: flex;
+    font-weight: 600;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -32,6 +33,13 @@
     opacity: 0;
     padding-top: 70px;
     transition: 0.4s;
+}
+.caption h3{
+    text-decoration: underline;
+}
+.caption p{
+    text-align: center;
+    padding: 20px;
 }
 
 .caption img{

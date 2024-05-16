@@ -22,3 +22,9 @@ nav ul li{
     margin: 5px 20px ;
     font-size: 16px;
 }
+.darkNav{
+    background: rgba(2, 94, 74, 0.7);
+    height: 5rem;
+    transition: 0.6s;
+    top:0;
+}

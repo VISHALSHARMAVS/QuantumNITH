@@ -1,10 +1,8 @@
 import './Programs.css'
 import P1 from "../../assets/P1.png"
-import P2 from "../../assets/P2.jpeg"
-import P3 from "../../assets/P3.jpeg"
-import L1 from "../../assets/L1.jpg"
-import L2 from "../../assets/L2.png"
-import L3 from "../../assets/L3.jpeg"
+import P2 from "../../assets/P2.png"
+import P3 from "../../assets/P3.png"
+
 
 function Programs() {
   return (
@@ -12,22 +10,26 @@ function Programs() {
         <div className="program">
             <img src={P1} alt="" />
             <div className="caption">
-                <img src={L1} alt="" />
-                <p> Full Stack Development </p>
+               
+                <h3> Undergraduate Programs </h3>
+                <p>QuantumNith offers a diverse range of undergraduate programs in engineering, including Computer Science, Electrical, Mechanical, Civil, and more. Each program is designed to provide a comprehensive education, equipping students with the knowledge and skills needed to excel in their chosen field.</p>
             </div>
         </div>
         <div className="program">
             <img src={P2} alt="" />
             <div className="caption">
-                <img src={L3} alt="" />
-                <p> Civil Engineering </p>
+              
+                <h3>Postgraduate Programs</h3>
+                <p>{`For those seeking to further their education, QuantumNith's postgraduate programs provide advanced training and research opportunities. From Master's degrees to Doctoral programs, the institution's world-class faculty and cutting-edge facilities ensure that students receive an unparalleled learning experience.`}
+</p>
             </div>
         </div>
         <div className="program">
             <img src={P3} alt="" />
             <div className="caption">
-                <img src={L2} alt="" />
-                <p> Data Science </p>
+            
+                <h3>Executive Education</h3>
+                <p>QuantumNith also caters to working professionals with its Executive Education programs. These tailored offerings provide opportunities for lifelong learning, skill development, and career advancement, keeping participants at the forefront of their respective industries.</p>
             </div>
         </div>
     </div>
