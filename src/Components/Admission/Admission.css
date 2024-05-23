@@ -1,7 +1,8 @@
-.programs{
+.application {
+    display: flex;
+    flex-wrap: wrap;
     margin: 5rem auto;
     width: 90%;
-    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -33,7 +34,9 @@
     cursor: pointer;
     opacity: 0;
     padding-top: 70px;
-    transition: 0.4s;
+    transition: all 0.4s;
+
+    
 }
 .caption h3{
     text-decoration: underline;

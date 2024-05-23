@@ -17,7 +17,7 @@ function Navbar() {
             <li>Program</li>
             <li>About Us</li>
             <li>Campus</li>
-            <li>Testimonials</li>
+            <li>Admission </li>
             <li><button className='btn'>Contact Us</button></li>
         </ul>
     </nav>
