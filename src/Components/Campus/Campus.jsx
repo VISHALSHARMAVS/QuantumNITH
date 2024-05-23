@@ -5,7 +5,7 @@ import Facilities from '../../assets/facilities.png'
 
 function Campus() {
   return (
-    <div className='programs'>
+    <div className='campus'>
     <div className="program">
         <img src={Student} alt="" />
         <div className="caption">

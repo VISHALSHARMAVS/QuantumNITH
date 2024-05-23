@@ -8,7 +8,7 @@ function ModalForm({onClose,isOpen,children}) {
         {isOpen && (<>
         <div className="form">
                 <div className='innerForm'>
-            <span className='close' onClick={onClose}>X</span>
+            <div className='close' onClick={onClose}><span>X</span></div>
                     {children}
                 </div>
         </div>

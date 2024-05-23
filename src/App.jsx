@@ -4,6 +4,7 @@ import About from './Components/About/About'
 import Admission from './Components/Admission/Admission'
 import Campus from './Components/Campus/Campus'
 import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 import Hero from './Components/Hero/Hero'
 import Navbar from './Components/Navbar/Navbar'
 import Programs from './Components/Programs/Programs'
@@ -26,6 +27,7 @@ function App() {
       <Admission/>
       <Title subTitle="Contact QuantumNith" title="Get In Touch" />
       <Contact/>
+      <Footer/>
     </div>
    </div>
   )

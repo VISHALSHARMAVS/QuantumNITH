@@ -51,7 +51,7 @@ function Contact() {
   };
 
   return (
-    <>
+    <div className='contactus'>
       <div className="contact">
         <div className="contactText">
           <h3>Send Us A Message</h3>
@@ -91,7 +91,7 @@ function Contact() {
         </form>
         <p  style={{ color: resultColor } } className="result" >{result}</p>
       </ModalForm>
-    </>
+    </div>
   );
 }
 

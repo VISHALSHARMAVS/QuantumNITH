@@ -11,13 +11,24 @@
     justify-content: center;
     
 }
-.form .close{
-    position: relative;
-    
+.form .innerForm .close{
+    text-align: right;
+    padding: 10px;
     cursor: pointer;
+    margin-bottom: 20px;
 
 }
+.form .innerForm .close span{
+    
+    color: #000;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 1px;
 
+}
+.form .innerForm .close span:hover{
+    background: rgba(213, 215, 215, 0.9);
+}
 .innerForm{
     background: #fff;
     height: 500px;
@@ -36,7 +47,7 @@
 
 }
 .innerForm form button{
-    background-color: red;
+    background-color: rgba(2, 94, 74, 0.7);;
     
 }
 .innerForm form input, .innerForm form textarea{
