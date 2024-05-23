@@ -22,6 +22,7 @@ function App() {
     <About/>
       <Title subTitle="Our Campus" title="Campus Life" />
       <Campus/>
+      <Title subTitle="Admission" title="Apply Now" />
       <Admission/>
       <Title subTitle="Contact QuantumNith" title="Get In Touch" />
       <Contact/>
