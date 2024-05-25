@@ -9,7 +9,7 @@ import Hero from './Components/Hero/Hero'
 import Navbar from './Components/Navbar/Navbar'
 import Programs from './Components/Programs/Programs'
 import Title from './Components/Title/Title'
-
+import './media.css'
 function App() {
 
 
@@ -20,6 +20,7 @@ function App() {
     <div className="container">
       <Title subTitle="Our Program" title="What We Offer" />
      <Programs/>
+      <Title subTitle="About University" title="India's Premier Engineering College" />
     <About/>
       <Title subTitle="Our Campus" title="Campus Life" />
       <Campus/>
@@ -27,8 +28,8 @@ function App() {
       <Admission/>
       <Title subTitle="Contact QuantumNith" title="Get In Touch" />
       <Contact/>
-      <Footer/>
     </div>
+      <Footer/>
    </div>
   )
 }

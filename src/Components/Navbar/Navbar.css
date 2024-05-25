@@ -30,3 +30,15 @@ nav ul li{
     transition: 0.6s;
     top:0;
 }
+.menuIcon{
+    display: none;
+  }
+@media (max-width:840px) {
+    .menuIcon{
+       
+        display: block;
+        width: 30px;
+        cursor: pointer;
+      
+    }
+}

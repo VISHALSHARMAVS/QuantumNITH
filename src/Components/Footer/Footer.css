@@ -1,13 +1,23 @@
 .footer {
     display: flex;
-    margin: 10px auto;
+    margin: 0px auto;
     align-items: center;
     justify-content: space-between;
     border-top: 1px solid #797979;
-    padding: 15px 0;
+    padding: 15px 10px;
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+   
+}
+.footer p{
+    padding-left: 40px;
+}
+.footer ul{
+    padding-right:40px ;
 }
 .footer ul li {
     list-style: none;
     display: inline-block;
     margin-left: 20px;
+    
 }

@@ -86,7 +86,7 @@ function Contact() {
           <textarea name="message" rows="6" placeholder="Enter Your Message" required></textarea>
           
           <div className="button">
-            <button type="submit" className="btn dark-btn">Submit Now</button>
+            <button type="submit" className="btn submitBtn">Submit Now</button>
           </div>
         </form>
         <p  style={{ color: resultColor } } className="result" >{result}</p>
